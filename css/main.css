@@ -94,8 +94,12 @@ main > p:first-child::first-letter {
 
 figure {
   float: right;
-  margin:
 }
+ figcaption {
+   text-align: left;
+   font-style: italic;
+   border-bottom: 3px solid #333;
+ }
 
 blockquote p {
   float: left;
